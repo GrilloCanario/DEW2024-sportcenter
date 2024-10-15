@@ -1,7 +1,11 @@
 class service {
-  constructor (name, ratings) {
+  constructor (name) {
     this.name = name
-    this.ratings = ratings
+    this.ratings = []
+  }
+
+  giveRating(rating) {
+    this.ratings.push(rating)
   }
 }
 
