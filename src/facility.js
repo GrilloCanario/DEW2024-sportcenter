@@ -10,4 +10,5 @@ class Facility extends Service {
     return this.maintenanceCost / 12
   }
 }
+
 module.exports = Facility
