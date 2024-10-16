@@ -6,7 +6,7 @@ class Service {
     this.ratings = [] // eliminado
   }
 
-  giveRating (value) {  // en vez de value seria rating
+  giveRating (value) { // en vez de value seria rating
     this.ratings.push(value)
   }
 

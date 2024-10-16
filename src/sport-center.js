@@ -125,7 +125,7 @@ class SportCenter {
   } */
 
   costServices () {
-    return this.#services.reduce((t, s) => t + s.calculateCost(), 0)
+    return this.#services.reduce((t, s) => t + s.calculateCost(), 0) // va sumando lo que aparezca en s.calculateCost en el acumulador t que se inicia en 0
   }
   /*   costServices () {
     let total = 0
